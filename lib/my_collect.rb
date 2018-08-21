@@ -1,8 +1,10 @@
 def my_collect(array)
   i = 0 
+  nuarray = []
   while i < array.length  
-  yield array[i].upcase
-  i = i + 1 
+  yield array[i]
+  i = i + 1
+  nuarray << "#{array.upcase}"
   end
   return array
 end
