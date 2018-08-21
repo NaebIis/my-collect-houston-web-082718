@@ -7,4 +7,3 @@ def my_collect(array)
   return array
 end
 
-my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
