@@ -6,6 +6,6 @@ def my_collect(array)
   i = i + 1
   nuarray << "#{array}"
   end
-  return array
+  return nuarray
 end
 
