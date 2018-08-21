@@ -7,12 +7,6 @@ def my_each(array)
   end
 end
 
-my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
-
-# Use the collection method 
-# To make the *return-value* the answer you want
-# instead of "=> nil"
-
 def hello(array)
   i = 0
   collection = []
